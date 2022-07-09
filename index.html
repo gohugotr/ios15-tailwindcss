@@ -8,14 +8,49 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <!-- https://www.youtube.com/watch?v=eSzNNYk7nVU&list=RDCMUCOe-8z68tgw9ioqVvYM4ddQ&start_radio=1 -->
+  <!-- https://heroicons.com/ -->
   <!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
   <body>
     <div class="px-10 min-h-screen bg-purple-50 flex justify-end items-center">
-      <div class="relative h-[712px] w-[350px] bg-black rounded-[60px] shadow-xl 
-       border-[14px] border-black overflow-hidden">
-        <img src="./iphone.jpeg" alt="İphone 15" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute top-0 inset-x-0"> <!-- Üst Çentik -->
-            <div class=" h-6 w-40 bg-black mx-auto rounded-b-3xl"></div>
+      <div
+        class="relative h-[712px] w-[350px] bg-black rounded-[60px] shadow-xl border-[14px] border-black overflow-hidden"
+      >
+        <img
+          src="./iphone.jpeg"
+          alt="İphone 15"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+        <div class="absolute top-0 inset-x-0">
+          <!-- Üst Çentik -->
+          <div class="h-6 w-40 bg-black mx-auto rounded-b-3xl"></div>
+        </div>
+        <div class="relative"><!-- Sol wifi, pil vb. iconlar kondu -->
+          <div class="mt-2 mr-5 justify-end space-x-1 flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 text-white"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 text-white"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M17.778 8.222c-4.296-4.296-11.26-4.296-15.556 0A1 1 0 01.808 6.808c5.076-5.077 13.308-5.077 18.384 0a1 1 0 01-1.414 1.414zM14.95 11.05a7 7 0 00-9.9 0 1 1 0 01-1.414-1.414 9 9 0 0112.728 0 1 1 0 01-1.414 1.414zM12.12 13.88a3 3 0 00-4.242 0 1 1 0 01-1.415-1.415 5 5 0 017.072 0 1 1 0 01-1.415 1.415zM9 16a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <img src="./energy.svg" alt="battery" class="h-4 w-4" />   
+          </div>
+           <div class="mt-1.5 bg-white h-0.5 w-10 ml-auto mr-7 rounded"></div>
         </div>
       </div>
     </div>
