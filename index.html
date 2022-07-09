@@ -11,8 +11,12 @@
   <!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
   <body>
     <div class="px-10 min-h-screen bg-purple-50 flex justify-end items-center">
-      <div class="relative h-[712px] w-[350px] bg-black rounded-[60px] shadow-xl overflow-hidden">
+      <div class="relative h-[712px] w-[350px] bg-black rounded-[60px] shadow-xl 
+       border-[14px] border-black overflow-hidden">
         <img src="./iphone.jpeg" alt="İphone 15" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute top-0 inset-x-0"> <!-- Üst Çentik -->
+            <div class=" h-6 w-40 bg-black mx-auto rounded-b-3xl"></div>
+        </div>
       </div>
     </div>
   </body>
