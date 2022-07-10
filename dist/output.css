@@ -998,6 +998,11 @@ video {
   padding-right: 2.5rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
